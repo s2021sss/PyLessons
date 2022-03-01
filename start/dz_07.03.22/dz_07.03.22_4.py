@@ -14,7 +14,3 @@ for i in text_split:
 for i in text_new:
     text_done=text_done+[i.split()]
 print(text_done)
-        
-    
-
-    
