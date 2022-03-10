@@ -7,7 +7,7 @@ s=0
 k=0
 for item in marks:
     k=k+1;
-    s=s+marks[item][kurs-1];
+    s=s+marks[item][kurs-1]
 print (f"Средняя оценка за {kurs} курс равна {round(s/k)}")
 categories = {'отлично' : [8, 9, 10],
              'хорошо' : [6, 7],
