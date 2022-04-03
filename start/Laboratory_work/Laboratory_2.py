@@ -10,6 +10,11 @@ def writedata(data):
     for stud in data:
         file.write(stud + "\n")
     file.close()
+    
+def printdata():
+    data=getdata()
+    for i in data: 
+        print (i)
 
 def addstudent(surname, name):
     student=" ".join([surname, name])
@@ -106,6 +111,8 @@ while (True):
             removestudent (surname)
         else:
             removestudent (surname, name=name)
+    elif (comanda=="data"):
+        printdata()
     elif (comanda=="q"):
         break
     else:
@@ -114,4 +121,5 @@ while (True):
                "get - найти студента по фамилии и имени или только по фамилии \n"
                "change - измменить у заданного по фамилии и имени студента имя и фамилию или только фамилию \n"
                "remove - удалить студента по фамилии и имени или толкьо по фамилии \n"
+               "data - вывести всех студентов \n"
                "q - конец программы")
