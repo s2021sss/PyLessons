@@ -4,4 +4,3 @@ for i in lst:
     if ((i>10 and i<100) or (i>200 and i<500)):
         s += i;
 print (s)
-
