@@ -9,4 +9,3 @@ for item in marks:
         if i>=mark:
             k=k+1
 print (f"Количество оценок выше или равных {mark} равно {k} ")
-
