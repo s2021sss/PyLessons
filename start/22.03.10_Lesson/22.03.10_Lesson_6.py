@@ -21,5 +21,3 @@ queries = [
 ]
 
 protsent_zaprosov(queries)
-
-
