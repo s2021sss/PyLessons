@@ -8,4 +8,3 @@ if (letter==letter_2):
     print ("Победа!")
 else:
     print ("Увы! Попробуйте в другой раз")
-
